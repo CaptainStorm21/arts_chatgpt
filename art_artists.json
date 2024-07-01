@@ -1,0 +1,590 @@
+{
+    "artists": [
+      {
+        "id": 1,
+        "name": "Leonardo da Vinci",
+        "biography": "Leonardo da Vinci was an Italian polymath of the Renaissance whose areas of interest included invention, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography.",
+        "artworks": [
+          {
+            "id": 101,
+            "title": "Mona Lisa",
+            "description": "A portrait of a woman with an enigmatic expression.",
+            "year_created": 1503,
+            "country": "Italy",
+            "city": "Florence"
+          },
+          {
+            "id": 102,
+            "title": "The Last Supper",
+            "description": "A mural painting representing the scene of The Last Supper of Jesus with his apostles.",
+            "year_created": 1498,
+            "country": "Italy",
+            "city": "Milan"
+          },
+          {
+            "id": 103,
+            "title": "Vitruvian Man",
+            "description": "A drawing depicting the ideal human body proportions.",
+            "year_created": 1490,
+            "country": "Italy",
+            "city": "Venice"
+          },
+          {
+            "id": 104,
+            "title": "Lady with an Ermine",
+            "description": "A portrait of Cecilia Gallerani holding an ermine.",
+            "year_created": 1489,
+            "country": "Italy",
+            "city": "Milan"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Vincent van Gogh",
+        "biography": "Vincent van Gogh was a Dutch post-impressionist painter who is among the most famous and influential figures in Western art. He created about 2,100 artworks, including about 860 oil paintings, most of them in the last two years of his life.",
+        "artworks": [
+          {
+            "id": 201,
+            "title": "Starry Night",
+            "description": "A depiction of a swirling night sky over a quiet town.",
+            "year_created": 1889,
+            "country": "France",
+            "city": "Saint-Rémy-de-Provence"
+          },
+          {
+            "id": 202,
+            "title": "Sunflowers",
+            "description": "A series of paintings depicting sunflowers in a vase.",
+            "year_created": 1888,
+            "country": "France",
+            "city": "Arles"
+          },
+          {
+            "id": 203,
+            "title": "The Bedroom",
+            "description": "A painting of Van Gogh's bedroom in Arles.",
+            "year_created": 1888,
+            "country": "France",
+            "city": "Arles"
+          },
+          {
+            "id": 204,
+            "title": "Irises",
+            "description": "A vibrant painting of irises.",
+            "year_created": 1889,
+            "country": "France",
+            "city": "Saint-Rémy-de-Provence"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Pablo Picasso",
+        "biography": "Pablo Picasso was a Spanish painter, sculptor, printmaker, ceramicist and theatre designer who spent most of his adult life in France. He is known for co-founding the Cubist movement, the invention of constructed sculpture, and the co-invention of collage.",
+        "artworks": [
+          {
+            "id": 301,
+            "title": "Les Demoiselles d'Avignon",
+            "description": "A large oil painting depicting five nude female prostitutes from a brothel on Carrer d'Avinyó in Barcelona.",
+            "year_created": 1907,
+            "country": "France",
+            "city": "Paris"
+          },
+          {
+            "id": 302,
+            "title": "Guernica",
+            "description": "A mural-sized oil painting on canvas representing the bombing of Guernica during the Spanish Civil War.",
+            "year_created": 1937,
+            "country": "France",
+            "city": "Paris"
+          },
+          {
+            "id": 303,
+            "title": "The Weeping Woman",
+            "description": "A series of paintings depicting a woman crying.",
+            "year_created": 1937,
+            "country": "France",
+            "city": "Paris"
+          },
+          {
+            "id": 304,
+            "title": "Girl before a Mirror",
+            "description": "A painting that explores the complex nature of identity and self-perception.",
+            "year_created": 1932,
+            "country": "France",
+            "city": "Paris"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Claude Monet",
+        "biography": "Claude Monet was a French painter, a founder of French Impressionist painting, and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature.",
+        "artworks": [
+          {
+            "id": 401,
+            "title": "Impression, Sunrise",
+            "description": "A painting depicting the port of Le Havre at sunrise.",
+            "year_created": 1872,
+            "country": "France",
+            "city": "Le Havre"
+          },
+          {
+            "id": 402,
+            "title": "Water Lilies",
+            "description": "A series of approximately 250 oil paintings depicting Monet's flower garden at Giverny.",
+            "year_created": 1926,
+            "country": "France",
+            "city": "Giverny"
+          },
+          {
+            "id": 403,
+            "title": "Woman with a Parasol",
+            "description": "A painting of Monet's wife and son on a windy summer's day.",
+            "year_created": 1875,
+            "country": "France",
+            "city": "Argenteuil"
+          },
+          {
+            "id": 404,
+            "title": "Rouen Cathedral Series",
+            "description": "A series of paintings depicting the facade of Rouen Cathedral at different times of day and in various weather conditions.",
+            "year_created": 1894,
+            "country": "France",
+            "city": "Rouen"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Michelangelo",
+        "biography": "Michelangelo was an Italian sculptor, painter, architect and poet of the High Renaissance born in the Republic of Florence. He exerted an unparalleled influence on the development of Western art.",
+        "artworks": [
+          {
+            "id": 501,
+            "title": "David",
+            "description": "A marble statue representing the biblical hero David.",
+            "year_created": 1504,
+            "country": "Italy",
+            "city": "Florence"
+          },
+          {
+            "id": 502,
+            "title": "Sistine Chapel Ceiling",
+            "description": "A series of frescoes covering the ceiling of the Sistine Chapel.",
+            "year_created": 1512,
+            "country": "Vatican City",
+            "city": "Vatican City"
+          },
+          {
+            "id": 503,
+            "title": "Pietà",
+            "description": "A marble sculpture of the Virgin Mary holding the dead body of Jesus.",
+            "year_created": 1499,
+            "country": "Italy",
+            "city": "Vatican City"
+          },
+          {
+            "id": 504,
+            "title": "The Last Judgment",
+            "description": "A fresco covering the entire altar wall of the Sistine Chapel.",
+            "year_created": 1541,
+            "country": "Vatican City",
+            "city": "Vatican City"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Rembrandt",
+        "biography": "Rembrandt was a Dutch Golden Age painter, printmaker, and draughtsman. An innovative and prolific master in three media, he is generally considered one of the greatest visual artists in the history of art and the most important in Dutch art history.",
+        "artworks": [
+          {
+            "id": 601,
+            "title": "The Night Watch",
+            "description": "A painting depicting a city guard moving out, led by Captain Frans Banning Cocq and his lieutenant, Willem van Ruytenburch.",
+            "year_created": 1642,
+            "country": "Netherlands",
+            "city": "Amsterdam"
+          },
+          {
+            "id": 602,
+            "title": "The Anatomy Lesson of Dr. Nicolaes Tulp",
+            "description": "A group portrait showing Dr. Tulp explaining the musculature of the arm to other doctors.",
+            "year_created": 1632,
+            "country": "Netherlands",
+            "city": "The Hague"
+          },
+          {
+            "id": 603,
+            "title": "The Jewish Bride",
+            "description": "A painting depicting a couple with solemn and introspective expressions.",
+            "year_created": 1667,
+            "country": "Netherlands",
+            "city": "Amsterdam"
+          },
+          {
+            "id": 604,
+            "title": "Self-Portrait with Two Circles",
+            "description": "A self-portrait of Rembrandt holding his palette and brushes.",
+            "year_created": 1665,
+            "country": "Netherlands",
+            "city": "London"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Johannes Vermeer",
+        "biography": "Johannes Vermeer was a Dutch Baroque painter who specialized in domestic interior scenes of middle-class life. He is particularly renowned for his masterly treatment and use of light in his work.",
+        "artworks": [
+          {
+            "id": 701,
+            "title": "Girl with a Pearl Earring",
+            "description": "A painting of a girl wearing an exotic dress, an oriental turban, and a large pearl earring.",
+            "year_created": 1665,
+            "country": "Netherlands",
+            "city": "The Hague"
+          },
+          {
+            "id": 702,
+            "title": "The Milkmaid",
+            "description": "A painting depicting a domestic kitchen maid pouring milk.",
+            "year_created": 1658,
+            "country": "Netherlands",
+            "city": "Amsterdam"
+          },
+          {
+            "id": 703,
+            "title": "The Art of Painting",
+            "description": "A painting showing an artist painting a woman posing as a model in the artist's studio.",
+            "year_created": 1668,
+            "country": "Netherlands",
+            "city": "Vienna"
+          },
+          {
+            "id": 704,
+            "title": "View of Delft",
+            "description": "A cityscape of Vermeer's hometown of Delft.",
+            "year_created": 1661,
+            "country": "Netherlands",
+            "city": "The Hague"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Salvador Dalí",
+        "biography": "Salvador Dalí was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work.",
+        "artworks": [
+          {
+            "id": 801,
+            "title": "The Persistence of Memory",
+            "description": "A painting known for its melting clocks in a desert landscape.",
+            "year_created": 1931,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 802,
+            "title": "The Elephants",
+            "description": "A painting featuring elephants with long, spindly legs.",
+            "year_created": 1948,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 803,
+            "title": "Swans Reflecting Elephants",
+            "description": "A painting using the double-image technique.",
+            "year_created": 1937,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 804,
+            "title": "The Sacrament of the Last Supper",
+            "description": "A surrealistic depiction of the Last Supper of Jesus.",
+            "year_created": 1955,
+            "country": "United States",
+            "city": "Washington, D.C."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Henri Matisse",
+        "biography": "Henri Matisse was a French visual artist, known for both his use of color and his fluid and original draughtsmanship. He was a draughtsman, printmaker, and sculptor, but is known primarily as a painter.",
+        "artworks": [
+          {
+            "id": 901,
+            "title": "The Dance",
+            "description": "A painting depicting five dancing figures.",
+            "year_created": 1910,
+            "country": "Russia",
+            "city": "Saint Petersburg"
+          },
+          {
+            "id": 902,
+            "title": "The Snail",
+            "description": "A large-scale collage made from paper cut-outs.",
+            "year_created": 1953,
+            "country": "France",
+            "city": "Paris"
+          },
+          {
+            "id": 903,
+            "title": "Woman with a Hat",
+            "description": "A painting of Matisse's wife, Amélie.",
+            "year_created": 1905,
+            "country": "France",
+            "city": "Paris"
+          },
+          {
+            "id": 904,
+            "title": "Blue Nudes",
+            "description": "A series of paintings depicting nude female figures.",
+            "year_created": 1952,
+            "country": "France",
+            "city": "Nice"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Edvard Munch",
+        "biography": "Edvard Munch was a Norwegian painter. His best known work, The Scream, has become one of the iconic images of world art.",
+        "artworks": [
+          {
+            "id": 1001,
+            "title": "The Scream",
+            "description": "A painting depicting a figure with an agonized expression against a tumultuous orange sky.",
+            "year_created": 1893,
+            "country": "Norway",
+            "city": "Oslo"
+          },
+          {
+            "id": 1002,
+            "title": "Madonna",
+            "description": "A painting of a woman with long flowing hair.",
+            "year_created": 1894,
+            "country": "Norway",
+            "city": "Oslo"
+          },
+          {
+            "id": 1003,
+            "title": "The Dance of Life",
+            "description": "A painting that represents the stages of a woman's life.",
+            "year_created": 1899,
+            "country": "Norway",
+            "city": "Oslo"
+          },
+          {
+            "id": 1004,
+            "title": "The Sick Child",
+            "description": "A painting depicting a child lying in bed while her mother looks on.",
+            "year_created": 1886,
+            "country": "Norway",
+            "city": "Oslo"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Jackson Pollock",
+        "biography": "Jackson Pollock was an American painter and a major figure in the abstract expressionist movement. He was widely noticed for his 'drip technique' of pouring or splashing liquid household paint onto a horizontal surface.",
+        "artworks": [
+          {
+            "id": 1101,
+            "title": "No. 5, 1948",
+            "description": "A painting with dense, chaotic swirls of paint.",
+            "year_created": 1948,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 1102,
+            "title": "Autumn Rhythm (Number 30)",
+            "description": "A painting with swirling layers of black, white, and brown paint.",
+            "year_created": 1950,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 1103,
+            "title": "Convergence",
+            "description": "A painting known for its complexity and vivid colors.",
+            "year_created": 1952,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 1104,
+            "title": "Blue Poles",
+            "description": "A painting featuring several bold blue lines against a chaotic background.",
+            "year_created": 1952,
+            "country": "United States",
+            "city": "New York"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Frida Kahlo",
+        "biography": "Frida Kahlo was a Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico. She employed a naïve folk art style to explore questions of identity, postcolonialism, gender, class, and race in Mexican society.",
+        "artworks": [
+          {
+            "id": 1201,
+            "title": "The Two Fridas",
+            "description": "A painting depicting two versions of Kahlo seated side by side.",
+            "year_created": 1939,
+            "country": "Mexico",
+            "city": "Mexico City"
+          },
+          {
+            "id": 1202,
+            "title": "Self-Portrait with Thorn Necklace and Hummingbird",
+            "description": "A self-portrait of Kahlo with a thorn necklace and a hummingbird.",
+            "year_created": 1940,
+            "country": "Mexico",
+            "city": "Mexico City"
+          },
+          {
+            "id": 1203,
+            "title": "The Broken Column",
+            "description": "A self-portrait of Kahlo with a broken column replacing her spine.",
+            "year_created": 1944,
+            "country": "Mexico",
+            "city": "Mexico City"
+          },
+          {
+            "id": 1204,
+            "title": "Viva la Vida",
+            "description": "A still life painting of watermelons.",
+            "year_created": 1954,
+            "country": "Mexico",
+            "city": "Mexico City"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Georgia O'Keeffe",
+        "biography": "Georgia O'Keeffe was an American modernist artist. She was known for her paintings of enlarged flowers, New York skyscrapers, and New Mexico landscapes.",
+        "artworks": [
+          {
+            "id": 1301,
+            "title": "Jimson Weed",
+            "description": "A painting of a white flower.",
+            "year_created": 1936,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 1302,
+            "title": "Black Iris",
+            "description": "A painting of a black iris flower.",
+            "year_created": 1926,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 1303,
+            "title": "Radiator Building - Night, New York",
+            "description": "A painting depicting the Radiator Building in New York City.",
+            "year_created": 1927,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 1304,
+            "title": "Sky Above Clouds IV",
+            "description": "A painting depicting clouds seen from above.",
+            "year_created": 1965,
+            "country": "United States",
+            "city": "New Mexico"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Andy Warhol",
+        "biography": "Andy Warhol was an American artist, film director, and producer who was a leading figure in the visual art movement known as pop art.",
+        "artworks": [
+          {
+            "id": 1401,
+            "title": "Marilyn Diptych",
+            "description": "A silkscreen painting depicting fifty images of Marilyn Monroe.",
+            "year_created": 1962,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 1402,
+            "title": "Campbell's Soup Cans",
+            "description": "A series of paintings depicting various Campbell's soup cans.",
+            "year_created": 1962,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 1403,
+            "title": "Eight Elvises",
+            "description": "A painting depicting eight identical, overlapping images of Elvis Presley.",
+            "year_created": 1963,
+            "country": "United States",
+            "city": "New York"
+          },
+          {
+            "id": 1404,
+            "title": "Silver Car Crash (Double Disaster)",
+            "description": "A painting depicting the aftermath of a car crash.",
+            "year_created": 1963,
+            "country": "United States",
+            "city": "New York"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Wassily Kandinsky",
+        "biography": "Wassily Kandinsky was a Russian painter and art theorist. He is generally credited as the pioneer of abstract art.",
+        "artworks": [
+          {
+            "id": 1501,
+            "title": "Composition VIII",
+            "description": "A painting featuring geometric shapes and vibrant colors.",
+            "year_created": 1923,
+            "country": "Germany",
+            "city": "Berlin"
+          },
+          {
+            "id": 1502,
+            "title": "Yellow-Red-Blue",
+            "description": "A painting with bold colors and geometric shapes.",
+            "year_created": 1925,
+            "country": "Germany",
+            "city": "Dessau"
+          },
+          {
+            "id": 1503,
+            "title": "Composition VII",
+            "description": "A painting known for its swirling and chaotic composition.",
+            "year_created": 1913,
+            "country": "Russia",
+            "city": "Moscow"
+          },
+          {
+            "id": 1504,
+            "title": "On White II",
+            "description": "A painting with abstract shapes and bold colors on a white background.",
+            "year_created": 1923,
+            "country": "Germany",
+            "city": "Berlin"
+          }
+        ]
+      }
+    ]
+  }
+  
