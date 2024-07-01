@@ -1,0 +1,5 @@
+to run this app 
+
+python load_data.py
+>> python text_processing.py
+>> lookup_and_process('name', 'Leonardo da Vinci')
