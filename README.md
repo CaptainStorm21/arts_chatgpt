@@ -8,7 +8,7 @@ To run the app, follow these steps:
 
 1. Ensure you have Python installed on your system.
 2. Clone this repository to your local machine.
-3. Place your `art_artist.json` file is in root directory
+3. `art_artist.json` file is in root directory
 4. Open your terminal or command prompt.
 5. Run the following commands:
 
