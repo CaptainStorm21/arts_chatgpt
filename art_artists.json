@@ -2,7 +2,7 @@
     "artists": [
       {
         "id": 1,
-        "name": "Leonardo da Vinci",
+        "artist_name": "Leonardo da Vinci",
         "biography": "Leonardo da Vinci was an Italian polymath of the Renaissance whose areas of interest included invention, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography.",
         "artworks": [
           {
@@ -41,7 +41,7 @@
       },
       {
         "id": 2,
-        "name": "Vincent van Gogh",
+        "artist_name": "Vincent van Gogh",
         "biography": "Vincent van Gogh was a Dutch post-impressionist painter who is among the most famous and influential figures in Western art. He created about 2,100 artworks, including about 860 oil paintings, most of them in the last two years of his life.",
         "artworks": [
           {
@@ -80,7 +80,7 @@
       },
       {
         "id": 3,
-        "name": "Pablo Picasso",
+        "artist_name": "Pablo Picasso",
         "biography": "Pablo Picasso was a Spanish painter, sculptor, printmaker, ceramicist and theatre designer who spent most of his adult life in France. He is known for co-founding the Cubist movement, the invention of constructed sculpture, and the co-invention of collage.",
         "artworks": [
           {
@@ -119,7 +119,7 @@
       },
       {
         "id": 4,
-        "name": "Claude Monet",
+        "artist_name": "Claude Monet",
         "biography": "Claude Monet was a French painter, a founder of French Impressionist painting, and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature.",
         "artworks": [
           {
@@ -158,7 +158,7 @@
       },
       {
         "id": 5,
-        "name": "Michelangelo",
+        "artist_name": "Michelangelo",
         "biography": "Michelangelo was an Italian sculptor, painter, architect and poet of the High Renaissance born in the Republic of Florence. He exerted an unparalleled influence on the development of Western art.",
         "artworks": [
           {
@@ -197,7 +197,7 @@
       },
       {
         "id": 6,
-        "name": "Rembrandt",
+        "artist_name": "Rembrandt",
         "biography": "Rembrandt was a Dutch Golden Age painter, printmaker, and draughtsman. An innovative and prolific master in three media, he is generally considered one of the greatest visual artists in the history of art and the most important in Dutch art history.",
         "artworks": [
           {
@@ -236,7 +236,7 @@
       },
       {
         "id": 7,
-        "name": "Johannes Vermeer",
+        "artist_name": "Johannes Vermeer",
         "biography": "Johannes Vermeer was a Dutch Baroque painter who specialized in domestic interior scenes of middle-class life. He is particularly renowned for his masterly treatment and use of light in his work.",
         "artworks": [
           {
@@ -275,7 +275,7 @@
       },
       {
         "id": 8,
-        "name": "Salvador Dalí",
+        "artist_name": "Salvador Dalí",
         "biography": "Salvador Dalí was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work.",
         "artworks": [
           {
@@ -314,7 +314,7 @@
       },
       {
         "id": 9,
-        "name": "Henri Matisse",
+        "artist_name": "Henri Matisse",
         "biography": "Henri Matisse was a French visual artist, known for both his use of color and his fluid and original draughtsmanship. He was a draughtsman, printmaker, and sculptor, but is known primarily as a painter.",
         "artworks": [
           {
@@ -353,7 +353,7 @@
       },
       {
         "id": 10,
-        "name": "Edvard Munch",
+        "artist_name": "Edvard Munch",
         "biography": "Edvard Munch was a Norwegian painter. His best known work, The Scream, has become one of the iconic images of world art.",
         "artworks": [
           {
@@ -392,7 +392,7 @@
       },
       {
         "id": 11,
-        "name": "Jackson Pollock",
+        "artist_name": "Jackson Pollock",
         "biography": "Jackson Pollock was an American painter and a major figure in the abstract expressionist movement. He was widely noticed for his 'drip technique' of pouring or splashing liquid household paint onto a horizontal surface.",
         "artworks": [
           {
@@ -431,7 +431,7 @@
       },
       {
         "id": 12,
-        "name": "Frida Kahlo",
+        "artist_name": "Frida Kahlo",
         "biography": "Frida Kahlo was a Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico. She employed a naïve folk art style to explore questions of identity, postcolonialism, gender, class, and race in Mexican society.",
         "artworks": [
           {
@@ -470,7 +470,7 @@
       },
       {
         "id": 13,
-        "name": "Georgia O'Keeffe",
+        "artist_name": "Georgia O'Keeffe",
         "biography": "Georgia O'Keeffe was an American modernist artist. She was known for her paintings of enlarged flowers, New York skyscrapers, and New Mexico landscapes.",
         "artworks": [
           {
@@ -509,7 +509,7 @@
       },
       {
         "id": 14,
-        "name": "Andy Warhol",
+        "artist_name": "Andy Warhol",
         "biography": "Andy Warhol was an American artist, film director, and producer who was a leading figure in the visual art movement known as pop art.",
         "artworks": [
           {
@@ -548,7 +548,7 @@
       },
       {
         "id": 15,
-        "name": "Wassily Kandinsky",
+        "artist_name": "Wassily Kandinsky",
         "biography": "Wassily Kandinsky was a Russian painter and art theorist. He is generally credited as the pioneer of abstract art.",
         "artworks": [
           {

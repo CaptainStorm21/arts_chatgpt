@@ -10,7 +10,7 @@ records = []
 for artist in data['artists']:
     for artwork in artist['artworks']:
         records.append({
-            'artist_name': artist['name'],
+            'artist_name': artist['artist_name'],
             'country': artwork['country'],
             'city': artwork['city']
         })
