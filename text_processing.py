@@ -1,39 +1,43 @@
 import json
 import nltk
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import WordPunctTokenizer
 import spacy
 
 # Download NLTK resources if needed
 nltk.download('punkt')
 
 # Function to perform lookup and process text
-def lookup_and_process(field, value):
+def lookup_and_process(query):
     # Load JSON data
     with open('art_artists.json') as f:
         data = json.load(f)
 
-    # Convert the field to lowercase for case insensitivity
-    field_lower = field.lower()
-
     # Initialize a list to store results
     results = []
 
+    # Convert query to lowercase for case insensitivity
+    query_lower = query.lower()
+
     # Iterate through artists and artworks
     for artist in data['artists']:
-        # Convert field values to lowercase for comparison
-        artist_field_value = artist.get(field_lower, '').lower()
-        
-        # Check if artist_field_value matches the value or if value is empty (match any)
-        if artist_field_value == value.lower() or value == '':
-            # Perform tokenization (NLTK)
-            text = artist['biography']
-            tokens = word_tokenize(text)
+        # Check if query matches artist's name or any artwork's title
+        artist_name_lower = artist['artist_name'].lower()
+        artworks = artist['artworks']
+
+        # Perform tokenization (WordPunctTokenizer for better handling of punctuation)
+        text = artist['biography']
+        tokenizer = WordPunctTokenizer()
+        tokens = tokenizer.tokenize(text)
+
+        # Check if the query matches the artist's name or any artwork's title
+        if (query_lower in artist_name_lower or any(query_lower in artwork['title'].lower() for artwork in artworks)):
             result = {
                 "artist_name": artist['artist_name'],
                 "tokenized_text": tokens,
-                "complete_sentence": ' '.join(tokens)
+                "complete_sentence": ' '.join(tokens),
+                "artworks": [artwork for artwork in artworks if query_lower in artwork['title'].lower() or query_lower in artist_name_lower]
             }
-            
+
             # Perform text processing (SpaCy)
             nlp = spacy.load("en_core_web_sm")
             doc = nlp(text)
@@ -42,19 +46,38 @@ def lookup_and_process(field, value):
 
             results.append(result)
 
-    return results if results else None  # Re
+    return results if results else None  # Return None if no matches found
 
-# Example usage to look up any artist by 'artist_name'
+# Function to handle user interaction
+def main():
+    while True:
+        # Prompt user to enter artist's name or artwork title
+        query = input("Enter artist's name or artwork title (or press Enter to search all): ").strip()
+
+        # Lookup and process based on user input
+        results = lookup_and_process(query)
+
+        if results:
+            for result in results:
+                print("Artist Name:", result["artist_name"])
+                print("Brief Biography:", result["complete_sentence"])
+                print("Artwork:")
+                for artwork in result["artworks"]:
+                    print(f"Title: {artwork['title']}")
+                    print(f"Description: {artwork['description']}")
+                    print(f"Year Created: {artwork['year_created']}")
+                    print(f"Location: {artwork['city']}, {artwork['country']}")
+                    print('----------------------')
+                print()  # Add a vertical space between each result
+
+            # Prompt user to find another artist or artwork title
+            choice = input("Would you like to find another artist or artwork title? (Yes/No): ").strip().lower()
+            if choice != 'yes':
+                print("Exiting program.")
+                break
+        else:
+            print("No artists or artworks found.")
+            break
+
 if __name__ == "__main__":
-    results = lookup_and_process('artist_name', '')
-    if results:
-        for result in results:
-            print("Artist Name:", result["artist_name"])
-            print("Tokenized Text:", result["tokenized_text"])
-            print("Complete Sentence:", result["complete_sentence"])
-            print("POS Tags:")
-            for token, pos in result["pos_tags"]:
-                print(f"{token} - {pos}")
-            print("--------------")
-    else:
-        print("No artists found.")
+    main()
